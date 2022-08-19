@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/SideHustle-Project1/static/css/main.818fec06.css",
+    "main.js": "/SideHustle-Project1/static/js/main.2ea66ca6.js",
+    "static/media/dp.svg": "/SideHustle-Project1/static/media/dp.0dfa0dae9d7feaf615fc335d797bb383.svg",
+    "static/media/consulting.svg": "/SideHustle-Project1/static/media/consulting.d90aa5462214a257977433e15f87e3f9.svg",
+    "static/media/technical.svg": "/SideHustle-Project1/static/media/technical.a612da8d828603bd0a5a0cd7cccdf0e4.svg",
+    "static/media/web.svg": "/SideHustle-Project1/static/media/web.488e2c5f32a0a1685a607397724bc349.svg",
+    "static/media/software.svg": "/SideHustle-Project1/static/media/software.173531fe3af19e3daf5ec8125b2df856.svg",
+    "static/media/training.svg": "/SideHustle-Project1/static/media/training.fbd29607fd512a77861acfc102206c69.svg",
+    "static/media/customer.svg": "/SideHustle-Project1/static/media/customer.278b6822d94561d0249905b7dfdaa37e.svg",
+    "static/media/database.svg": "/SideHustle-Project1/static/media/database.d22e8aa4ed87da4aa786d5feba6f327c.svg",
+    "static/media/wordpress.svg": "/SideHustle-Project1/static/media/wordpress.5b4f3dcac61212a2ae01eb36e7e2287e.svg",
+    "static/media/telephone.svg": "/SideHustle-Project1/static/media/telephone.fea0ce414dcadd740a6d78efe77cd89e.svg",
+    "static/media/python.svg": "/SideHustle-Project1/static/media/python.d1e7e21857811be62a03da38cabd3970.svg",
+    "static/media/php.svg": "/SideHustle-Project1/static/media/php.2e223f95507d73b7c7999d6fd58f80f3.svg",
+    "static/media/envelope.svg": "/SideHustle-Project1/static/media/envelope.e6b132b01f49d4f6748296c34456b4a9.svg",
+    "static/media/sass.svg": "/SideHustle-Project1/static/media/sass.d18b311fb17b9ec6f7a60667760f2a81.svg",
+    "static/media/responsive.svg": "/SideHustle-Project1/static/media/responsive.4bf21cfd985df7257e3b989442f8d400.svg",
+    "static/media/twitter.svg": "/SideHustle-Project1/static/media/twitter.af7478f25fbf4970980c7c6c89474a85.svg",
+    "static/media/twitter1.svg": "/SideHustle-Project1/static/media/twitter1.8f04cc165432c77048bdf8e283cd153a.svg",
+    "static/media/js.svg": "/SideHustle-Project1/static/media/js.b9e5cdd7e2d7609fa3081cd325b4409e.svg",
+    "static/media/linkedin.svg": "/SideHustle-Project1/static/media/linkedin.2566b97e6abfc9664d9753c6836486f4.svg",
+    "static/media/linkedin1.svg": "/SideHustle-Project1/static/media/linkedin1.2bc2bf29c2c6b13ef98e0fa77bfc0f3f.svg",
+    "index.html": "/SideHustle-Project1/index.html",
+    "static/media/enve.svg": "/SideHustle-Project1/static/media/enve.5fa33d7cf8188b8b57e602185417e072.svg",
+    "static/media/html5.svg": "/SideHustle-Project1/static/media/html5.e185bfe7a281a2facb40c8d5913af49a.svg",
+    "static/media/windows.svg": "/SideHustle-Project1/static/media/windows.afb709c5ae7e53765c73183cf1f700bc.svg",
+    "static/media/line.svg": "/SideHustle-Project1/static/media/line.60f58c86dfcefe4fcb0b11f3d5ad6ad0.svg",
+    "main.818fec06.css.map": "/SideHustle-Project1/static/css/main.818fec06.css.map",
+    "main.2ea66ca6.js.map": "/SideHustle-Project1/static/js/main.2ea66ca6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.818fec06.css",
+    "static/js/main.2ea66ca6.js"
+  ]
+}
