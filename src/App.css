@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
   display: flex;
-  flex-direction: column;
+  padding: 29px 120px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+.list{
+  display: flex;
+  justify-content: space-between;
+  width: 653px;
+  padding-right: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.list ul{
+  display: flex;
+}
+
+.list ul li{
+  display: inline-block;
+  margin: 0px 12px;
+}
+
+.list ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+}
+
+.list h3{
+  text-decoration: none;
+}
+
+.NameTag{
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin-left: 0px !important;
+  text-decoration: none;
+  color: #000000;
+}
+
+.NavbarIcons img{
+  margin-right: 24px;
+}
+
+@media (max-width: 500px){
+  .Navbar{
+    padding: 29px 25px;
+    width: 100%;
+    background-color: #fff;
   }
-  to {
-    transform: rotate(360deg);
+
+  .list h2{
+    font-size: 10px;
+  }
+
+  .list ul{
+    margin: 0px 2px;
+    display: none;
+  }
+
+  .NavbarIcons{
+    display: none;
   }
 }

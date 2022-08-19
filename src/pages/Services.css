@@ -1,0 +1,74 @@
+.serviceContainer{
+    padding: 0px 120px;
+    margin-bottom: 100px;
+}
+
+.serviceContainer h1{
+    font-size: 48px;
+    line-height: 66px;
+    font-weight: 700;
+}
+
+.serviceContainer p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    width: 467px;
+    margin-top: 15px;
+}
+
+.serviceCardContainer{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.serviceCard{
+    width: 387px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+
+.serviceCard h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.serviceCard p{
+    width: 387px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+@media(max-width: 500px){
+   .serviceContainer{
+    padding: 0px 20px;
+   } 
+   .serviceContainer h1{
+    font-size: 35px;
+   }
+   .serviceContainer p{
+    font-size: 13px;
+    margin-top: 5px;
+   }
+   .serviceCard{
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    }
+    .serviceCard h2{
+        font-size: 18px;
+    }
+    .serviceCard p{
+        width: 100%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}

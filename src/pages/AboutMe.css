@@ -1,0 +1,107 @@
+.AboutMe{
+    height: 434px;
+    background-color: #F6F8FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AboutMe h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+}
+
+.AboutMe p{
+    width: 465px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.AboutMe img{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.skillCard{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.innerCard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.innerCard img{
+    height: 9px;
+    width: 300px;
+}
+
+.mySkills{
+    padding-left: 120px;
+}
+
+.mySkills h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+    margin-top: 96px;
+}
+
+.mySkills p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+
+.skillCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+@media(max-width: 500px){
+    .AboutMe h1{
+        font-size: 35px;
+    }
+
+    .AboutMe p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .mySkills{
+        padding-left: 10px;
+    }
+
+    .mySkills h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .mySkills p{
+        text-align: center;
+    }
+
+    .skillCardContainer{
+        max-width: 500px;
+    }
+
+    .skillCard{
+        width: 100%;
+    }
+    
+    .innerCard img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,132 @@
+.projectContainer{
+    padding: 0px 120px;
+    margin-bottom: 150px;
+}
+
+.projectContainer h1{
+    font-size: 48px;
+    line-height: 66px;
+    font-weight: 700;
+}
+
+.projectContainer p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.ProjectListContainer{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ProjectListContainer .first{
+    background-color: #2351DC;
+    height: 630px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 40px;
+}
+
+.ProjectListContainer .second{
+    background-color: #0DC397;
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 40px;
+}
+
+.ProjectListContainer .third{
+    background-color: #0A1842;
+    height: 310px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 40px;
+}
+
+.ProjectListContainer .fourth{
+    background-color: #2351DC;
+    height: 640px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 40px;
+}
+
+.ProjectListContainer .fifth{
+    background-color: #1C41B0;
+    height: 640px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 40px;
+}
+
+.ProjectListContainer .sixth{
+    background-color: #2351DC;
+    height: 310px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 40px;
+}
+
+.first, 
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth h2{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.first, 
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media(max-width: 500px){
+    .projectContainer{
+        padding: 0px 20px;
+    }
+    .projectContainer h1{
+        font-size: 35px;
+        line-height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .projectContainer p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .ProjectListContainer{
+        width: 100%;
+        display: block;
+    }
+    .ProjectListContainer .first, .ProjectListContainer .second,.ProjectListContainer .third,
+    .ProjectListContainer .fourth,.ProjectListContainer .fifth,
+    .ProjectListContainer .sixth{
+        height: 150px;
+    }
+}
